@@ -54,7 +54,7 @@ export default function Footer() {
 
               {/* GitHub — replace href with your profile URL */}
               <a
-                href="https://github.com/nishan2204"
+                href="https://github.com/nishan2204/ml-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"

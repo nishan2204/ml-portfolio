@@ -6,11 +6,11 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nishan Shetty — From Raw Data to Autonomous Action',
+  title: 'Nishan Shetty - From Raw Data to Autonomous Action',
   description:
     'Data Scientist and AI Engineer with 8+ years building production ML and AI systems across scheduling optimization, forecasting, RAG agents, causal inference, and more.',
   openGraph: {
-    title: 'Nishan Shetty — From Raw Data to Autonomous Action',
+    title: 'Nishan Shetty - From Raw Data to Autonomous Action',
     description:
       'Data Scientist and AI Engineer with 8+ years building production ML and AI systems across scheduling optimization, forecasting, RAG agents, causal inference, and more.',
     url: 'https://nishanshetty.com',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nishan Shetty — From Raw Data to Autonomous Action',
+    title: 'Nishan Shetty - From Raw Data to Autonomous Action',
     description:
       'Data Scientist and AI Engineer with 8+ years building production ML and AI systems across scheduling optimization, forecasting, RAG agents, causal inference, and more.',
   },

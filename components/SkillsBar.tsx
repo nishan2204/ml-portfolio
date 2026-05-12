@@ -9,8 +9,6 @@ const SKILLS = [
   'LightGBM',
   'Hugging Face',
   'LangChain',
-  'Claude API',
-  'OpenAI API',
   'AWS Bedrock',
   'RAG',
   'Prompt Engineering',

@@ -26,10 +26,10 @@ export default function Hero() {
 
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-[5rem] lg:text-[5.5rem] font-bold text-white mb-6 tracking-tight leading-[1.04]">
-          ML systems that
+          From Raw Data to
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-emerald-400">
-            work in the real world
+            Autonomous Action
           </span>
         </h1>
 

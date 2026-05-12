@@ -35,7 +35,7 @@ export default function Hero() {
 
         {/* Bio */}
         <p className="text-base md:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed mb-12">
-          Data Scientist and AI Engineer with 7+ years building production ML systems that are accurate,
+          Data Scientist and AI Engineer with 8+ years building production ML systems that are accurate,
           explainable, and fast enough to matter. Proven in regulated, multi-site production
           environments, from scheduling optimization and revenue forecasting to multi-agent AI systems.
         </p>

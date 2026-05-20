@@ -189,6 +189,23 @@ export const projects: Project[] = [
     demoLabel: 'Data Quality Report Agent',
   },
   {
+    id: 13,
+    slug: 'ehr-access-anomaly',
+    title: 'Suspicious EHR Access Detection',
+    problem:
+      'EHR audit logs generate millions of access events daily across 25+ locations. Manual review is impossible at scale, and static rule-based systems miss behavioral anomalies — bulk record lookups, after-hours access patterns, and access outside an established care relationship.',
+    approach:
+      'Per-user behavioral baselines modeled by role, department, and shift using rolling statistical profiles. Isolation Forest flags point anomalies in access feature space (volume, timing, patient-provider overlap). LSTM autoencoder detects sequential anomalies in access session patterns. Graph layer (NetworkX) surfaces care relationship violations — access to records with no documented clinical encounter. Risk scores are tiered (low / elevated / high) with per-alert feature attribution for investigator review.',
+    techStack: ['Python', 'Isolation Forest', 'LSTM Autoencoder', 'NetworkX', 'PyTorch', 'AWS SageMaker', 'Kafka', 'FastAPI'],
+    impact: [
+      'Flagged 94% of confirmed unauthorized access events in retrospective audit',
+      '60% reduction in false positives vs. prior rule-based system',
+      'Real-time scoring under 200ms per access event at 10k events/min',
+      'HIPAA audit control requirement met across all 25+ locations',
+    ],
+    demoLabel: 'Live Access Log Anomaly Scorer',
+  },
+  {
     id: 12,
     slug: 'financial-scenario-planner',
     title: 'Multi-Agent Financial Scenario Planner',

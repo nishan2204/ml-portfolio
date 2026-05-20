@@ -15,6 +15,7 @@ import LTVChurnDemo from '@/components/demos/LTVChurnDemo'
 import CapacityPlanningDemo from '@/components/demos/CapacityPlanningDemo'
 import EDAQualityDemo from '@/components/demos/EDAQualityDemo'
 import FinancialScenarioDemo from '@/components/demos/FinancialScenarioDemo'
+import EHRAccessDemo from '@/components/demos/EHRAccessDemo'
 import { projects } from '@/lib/projects'
 
 function getDemo(id: number) {
@@ -31,6 +32,7 @@ function getDemo(id: number) {
     case 10: return <CapacityPlanningDemo />
     case 11: return <EDAQualityDemo />
     case 12: return <FinancialScenarioDemo />
+    case 13: return <EHRAccessDemo />
     default: return null
   }
 }

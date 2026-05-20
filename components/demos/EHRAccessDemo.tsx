@@ -167,7 +167,7 @@ function ScoreBar({ value, color }: { value: number; color: string }) {
 export default function EHRAccessDemo() {
   const [seed, setSeed] = useState(42)
   const [selected, setSelected] = useState<string | null>(null)
-  const [filter, setFilter] = useState<'all' | 'high' | 'elevated'>('all')
+  const [filter, setFilter] = useState<'all' | 'high' | 'elevated' | 'low'>('all')
 
   const events = useMemo(() => generateEvents(seed), [seed])
   const filtered = filter === 'all' ? events : events.filter(e => e.riskTier === filter)
